@@ -1,0 +1,593 @@
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  line-height: 1.45;
+  font-family: poynter-oldstyle-text, "Charter", serif;
+/*font-family: 'STIX Two Text', "Charter", "Georgia", serif;*/
+  font-size: 18px;
+}
+
+body {
+  color: #111;
+  background-color: white;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+/* No `:visited` state is required by default (browsers will use `a`) */
+a {
+  color: #111;
+  border-bottom: solid 1px peru;
+  text-decoration: none;
+  transition: 0.5s;
+}
+a strong {
+  color: inherit;
+}
+/* `:focus` is linked to `:hover` for basic accessibility */
+a:hover,
+a:focus {
+/*color: #2F00F7;*/
+  color: peru; 
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+  line-height: 1.25;
+  color: #111;
+  text-rendering: optimizeLegibility;
+  font-family: neue-haas-grotesk-text, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+h1 {
+  font-size: 1.4rem;
+}
+h2 {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+h3 {
+  margin-top: 1.5rem;
+  font-size: .9rem;
+  color: peru;
+  font-weight: 500;
+}
+h4, h5, h6 {
+  margin-top: 1rem;
+  font-size: .8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: darkgray;
+}
+
+/* Body text */
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+/*div.post>p+p {
+  text-indent: 2rem;
+}*/
+strong {
+  color: #303030;
+}
+
+
+/* Lists */
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  position: relative;
+  padding-left: 2rem;
+}
+.post ul li::before,
+.page ul li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  width: 1rem;
+}
+.post ol li::before,
+.page ol li::before {
+  content: counter(sir-countenator) "  ";
+  position: absolute;
+  left: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+ol {
+  counter-reset: sir-countenator;
+}
+ol li {
+  counter-increment: sir-countenator;
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-bottom: .5rem;
+}
+
+/* Misc */
+hr {
+  position: relative;
+  margin: 0 0 1rem 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+abbr {
+  font-size: 85%;
+  font-weight: bold;
+  color: #555;
+  text-transform: uppercase;
+}
+abbr[title] {
+  cursor: help;
+  border-bottom: 1px dotted #e5e5e5;
+}
+
+/* Code */
+code,
+pre {
+  font-family: courier-std, monospace;
+}
+code {
+  padding: .25em .5em;
+  font-size: 85%;
+  color: #bf616a;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+}
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: .8rem;
+  line-height: 1.4;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f9f9f9;
+}
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent;
+}
+
+/* Pygments via Jekyll */
+.highlight {
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+.highlight pre {
+  margin-bottom: 0;
+}
+
+/* Gist via GitHub Pages */
+.gist .gist-file {
+  font-family: courier-std, monospace;
+}
+.gist .markdown-body {
+  padding: 15px;
+}
+.gist pre {
+  padding: 0;
+  background-color: transparent;
+}
+.gist .gist-file .gist-data {
+  font-size: .8rem !important;
+  line-height: 1.4;
+}
+.gist code {
+  padding: 0;
+  color: inherit;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+/* Quotes */
+blockquote {
+  padding: .5rem 1rem;
+  margin: .8rem 0;
+  border-left: .25rem solid peru;
+  font-style: italic;
+}
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 30em) {
+  blockquote {
+    padding-right: 5rem;
+    padding-left: 1.25rem;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 0 1rem;
+  border-radius: 5px;
+}
+
+/* Tables */
+table {
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: .25rem .5rem;
+  border: 1px solid #e5e5e5;
+}
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
+}
+
+
+/*
+ * Custom type
+ *
+ * Extend paragraphs with `.lead` for larger introductory text.
+ */
+
+.lead {
+  font-size: 1.15rem;
+  font-weight: 300;
+}
+.intro {
+  font-style: italic;
+  color: #999;
+}
+
+
+/*
+ * Messages
+ *
+ * Show alert messages to users. You may add it to single elements like a `<p>`,
+ * or to a parent if there are multiple elements to show.
+ */
+
+.message {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: #717171;
+  background-color: #f9f9f9;
+}
+
+
+/*
+ * Container
+ *
+ * Center the page content.
+ */
+
+.container {
+  max-width: 38rem;
+  padding-left:  1rem;
+  padding-right: 1rem;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+
+/*
+ * Masthead
+ *
+ * Super small header above the content for site name and short description.
+ */
+
+.masthead {
+  padding-top:    1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+.masthead-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #505050;
+}
+.masthead-title a {
+  color: #505050;
+}
+.masthead-title small {
+  font-size: 75%;
+  font-weight: 400;
+  color: #c0c0c0;
+  letter-spacing: 0;
+}
+
+
+/*
+ * Posts and pages
+ *
+ * Each post is wrapped in `.post` and is used on default and post layouts. Each
+ * page is wrapped in `.page` and is only used on the page layout.
+ */
+
+.page,
+.post {
+  margin-bottom: 4em;
+}
+.post {
+  padding-bottom: 2rem;
+  border-bottom: solid 1px #eee;
+}
+/* Blog post or page title */
+.page-title,
+.post-title,
+.post-title a {
+  color: #303030;
+}
+.page-title,
+.post-title {
+  margin-top: 0;
+}
+
+/* Meta data line below post title */
+.post-date {
+  display: block;
+  margin-bottom: 1rem;
+  color: #9a9a9a;
+  font-family: courier-std, monospace;
+  font-size: 0.8rem;
+}
+
+/* Related posts */
+.related {
+  padding-bottom: 2rem;
+}
+.related-posts {
+  padding-left: 0;
+  list-style: none;
+}
+.related-posts h3 {
+  margin-top: 0;
+}
+.related-posts li small {
+  font-size: 75%;
+  color: #999;
+}
+.related-posts li a:hover {
+  color: peru;
+  text-decoration: none;
+}
+.related-posts li a:hover small {
+  color: inherit;
+}
+
+
+/*
+ * Pagination
+ *
+ * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
+ * there are no more previous or next posts to show.
+ */
+
+.pagination {
+  overflow: hidden; /* clearfix */
+  margin-left: -1rem;
+  margin-right: -1rem;
+  font-family: courier-std, monospace;
+  font-size: .8rem;
+  color: #ccc;
+  text-align: center;
+}
+
+/* Pagination items can be `span`s or `a`s */
+.pagination-item {
+  display: block;
+  padding: 1rem;
+  border: 1px solid #eee;
+}
+.pagination-item:first-child {
+  margin-bottom: -1px;
+}
+
+/* Only provide a hover state for linked pagination items */
+a.pagination-item:hover {
+  background-color: #f5f5f5;
+}
+
+@media (min-width: 30em) {
+  .pagination {
+    margin: 3rem 0;
+  }
+  .pagination-item {
+    float: left;
+    width: 50%;
+  }
+  .pagination-item:first-child {
+    margin-bottom: 0;
+    border-top-left-radius:    4px;
+    border-bottom-left-radius: 4px;
+  }
+  .pagination-item:last-child {
+    margin-left: -1px;
+    border-top-right-radius:    4px;
+    border-bottom-right-radius: 4px;
+  }
+}
+
+::selection {
+	background: whitesmoke;
+	color: dimgray;
+}
+::-moz-selection {
+	background:  whitesmoke;
+	color: dimgray;
+}
+.sidebar {
+  padding: 1rem;
+  color: #fafafa;
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+p.sidebar-nav {
+  display: none;
+}
+@media (min-width: 48.06rem) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 12rem;
+    text-align: left;
+    padding: 2rem;
+  }
+  p.sidebar-nav {
+    display: unset;
+  }
+}
+
+h1 a {
+  border-bottom: none;
+}
+h1 a:hover {
+  color: #999;
+}
+.post h1 {
+  margin-bottom: 0.5rem;
+}
+/* Sidebar links */
+.sidebar a {
+  color: #fafafa;
+  border-bottom: none;
+}
+
+/* About section */
+.sidebar-about h1 {
+  color: #FFF;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Sidebar nav */
+.sidebar-nav {
+  /*margin-bottom: 1rem;*/
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: .9rem;
+}
+.sidebar-nav-item {
+  margin-right: 1rem;
+  display: inline-block;
+}
+@media (min-width: 48.06rem) {
+  .sidebar-nav-item {
+    display: block;
+    line-height: 2;
+  }
+} 
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+  color: #c1bbaf;
+}
+.sidebar-nav-item.active {
+  font-weight: 700;
+  color: white;
+}
+.sidebar-nav-item.active::after {
+  content: "  ↬";
+}
+
+/* Sticky sidebar
+ *
+ * Add the `sidebar-sticky` class to the sidebar's container to affix it the
+ * contents to the bottom of the sidebar in tablets and up.
+ */
+
+@media (min-width: 48em) {
+  .sidebar-sticky {
+    position: absolute;
+    right:  1rem;
+    bottom: 1rem;
+    left:   1rem;
+  }
+}
+
+/* Container
+ *
+ * Align the contents of the site above the proper threshold with some margin-fu
+ * with a 25%-wide `.sidebar`.
+ */
+
+.content {
+  padding-top:    2rem;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 48.06rem) {
+  .content {
+    margin-left: 14rem;
+    margin-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .content {
+    margin-left: 16rem;
+    margin-right: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+
+/*
+ * Reverse layout
+ *
+ * Flip the orientation of the page by placing the `.sidebar` on the right.
+ */
+
+@media (min-width: 48.06.06em) {
+  .layout-reverse .sidebar {
+    left: auto;
+    right: 0;
+  }
+  .layout-reverse .content {
+    margin-left: 2rem;
+    margin-right: 20rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .layout-reverse .content {
+    margin-left: 4rem;
+    margin-right: 22rem;
+  }
+}
