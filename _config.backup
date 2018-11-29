@@ -1,0 +1,28 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            'Jake Atkin'
+tagline:          'Digital, UX, Service and Product Design'
+description:      "I'm a Lancastrian digital designer living and working in Manchester."
+url:              http://jakeatkin.co.uk/
+baseurl:          /
+excerpt_separator: <!--more-->
+
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
+
+plugins:          [jekyll-paginate]
