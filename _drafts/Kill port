@@ -1,7 +1,0 @@
-Steps here fixed it for me. I had to append 'sudo' along with the commands.
-
-sudo lsof -wni tcp:4000
-
-It will give you information of process running on tcp port 4000 which also contains PID (Process ID). Now use command below to kill the process.
-
-sudo kill -9 PID
