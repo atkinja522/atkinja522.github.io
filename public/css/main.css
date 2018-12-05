@@ -433,8 +433,8 @@ a.pagination-item:hover {
 }
 
 ::selection {
-	background: whitesmoke;
-	color: dimgray;
+  background: peru;
+  color: white;
 }
 ::-moz-selection {
 	background:  whitesmoke;
@@ -447,10 +447,9 @@ a.pagination-item:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 5px solid #222;
-  background-image: url(../../assets/img/bg-topos.jpg);
-  background-position: fixed;
-
+  border: 5px solid rgb(31, 30, 30);
+  background-image: url(../../assets/img/contour.svg);
+  background-size: 800px;
 }
 p.sidebar-nav {
   display: none;
@@ -474,7 +473,7 @@ h1 a {
   border-bottom: none;
 }
 h1 a:hover {
-  color: #999;
+  color: #c1bbaf;
 }
 .post h1 {
   margin-bottom: 0.5rem;
