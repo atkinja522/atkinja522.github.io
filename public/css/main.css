@@ -443,10 +443,14 @@ a.pagination-item:hover {
 .sidebar {
   padding: 1rem;
   color: #fafafa;
-  background-color: #111;
+  background-color: #222;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border: 5px solid #222;
+  background-image: url(../../assets/img/bg-topos.jpg);
+  background-attachment: fixed;
+  background-size: 15%;
 
 }
 p.sidebar-nav {
@@ -488,7 +492,7 @@ h1 a:hover {
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 1rem;
-  font-family: nimbus-sans-extended,sans-serif;
+  font-family: nimbus-sans-extended, neue-haas-grotesk-text, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
