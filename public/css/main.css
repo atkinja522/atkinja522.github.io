@@ -449,8 +449,7 @@ a.pagination-item:hover {
   justify-content: space-between;
   border: 5px solid #222;
   background-image: url(../../assets/img/bg-topos.jpg);
-  background-attachment: fixed;
-  background-size: 15%;
+  background-position: fixed;
 
 }
 p.sidebar-nav {
