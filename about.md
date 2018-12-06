@@ -9,8 +9,8 @@ Presently, I'm improving customers' car financing experience with the fine folks
 
 ## Get in touch
 
-* [jake@jakeatkin.co.uk](3)
-* [@theatkinator](4)
+* [jake@jakeatkin.co.uk][3]
+* [@theatkinator][4]
 
 
 [1]: https://www.zuto.com
