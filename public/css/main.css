@@ -230,6 +230,16 @@ img {
   border-radius: 5px;
 }
 
+/* Caption text styling */
+img + em { 
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: bold;
+  font-size: .8rem;
+  font-style: normal;
+  display: block;
+}
+
+
 /* Tables */
 table {
   margin-bottom: 1rem;
