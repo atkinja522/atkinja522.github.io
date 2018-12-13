@@ -2,6 +2,7 @@
 layout: post
 title: "Barebones"
 published: true
+tags: Thoughts
 ---
 
 I've been thinking a lot lately about complexity, and how we, as designers, can better define the complexity/simplicity sweet-spot - and how I can avoid it. This was largely sparked by [this inspiring graphic essay on complexity](https://extranewsfeed.com/making-sense-of-complexity-ee78755d56b9) and a provoking lament from Isaac Newton:
