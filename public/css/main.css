@@ -14,7 +14,8 @@ body {
 
 html {
   line-height: 1.45;
-  font-family: poynter-oldstyle-text, "Charter", serif;
+  font-family: arnhem, 'STIX Two Text', 'Charter', 'Georgia', 'Times New Roman', Times, serif;
+/*font-family: poynter-oldstyle-text, "Charter", serif;*/
 /*font-family: 'STIX Two Text', "Charter", "Georgia", serif;*/
   font-size: 18px;
 }
