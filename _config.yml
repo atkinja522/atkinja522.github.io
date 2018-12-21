@@ -29,7 +29,7 @@ excerpt_separator: <!--more-->
 # Build settings
 markdown: kramdown
 theme: minima
-highlighter: pygments
+highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-paginate
