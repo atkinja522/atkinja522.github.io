@@ -118,6 +118,9 @@ ol {
 ol li {
   counter-increment: sir-countenator;
 }
+li {
+	padding-bottom: 0.5rem;
+}
 dt {
   font-weight: bold;
 }
