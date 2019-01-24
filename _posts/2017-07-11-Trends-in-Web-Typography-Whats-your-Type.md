@@ -1,8 +1,9 @@
 ---
+title: 'Trends in Web Typography: What''s your Type?'
+date: 2017-07-11 00:00:00 Z
+tags:
+- Typography
 layout: post
-title:  "Trends in Web Typography: What's your Type?"
-published: true
-tags: Typography
 ---
 
 Combing the web for inspiration often leads me down similar paths, and one website that’s nearly always on my go-to list is Typewolf, a stalwart of the cool and cutting-edge sites that utilise type as their main organising structure. As the clue is in the name, these sites aren’t always development marvels, but the typography is always on point, for better or for worse. There are beautiful sites, ‘interesting’ sites, and completely unusable sites; but they all have one thing in common: excellent and inspiring typography.
