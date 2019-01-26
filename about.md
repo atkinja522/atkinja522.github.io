@@ -12,7 +12,6 @@ Presently, I'm improving customers' car financing experience with the fine folks
 * [jake@jakeatkin.co.uk][3]
 * [@theatkinator][4]
 
-
 [1]: https://www.zuto.com
 [2]: https://www.fatmedia.co.uk
 [3]: mailto:jake@jakeatkin.co.uk
