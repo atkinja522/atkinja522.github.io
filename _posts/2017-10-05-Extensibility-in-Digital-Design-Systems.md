@@ -1,9 +1,8 @@
 ---
+title: Extensibility in Digital Design Systems
+date: 2017-10-05 00:00:00 Z
 layout: post
-title:  "Extensibility in Digital Design Systems"
-date: 2017-10-05
-excerpt_separator: <!--more-->
-published: true
+excerpt_separator: "<!--more-->"
 ---
 
 ![Extensibility Illustration](/assets/img/blog-img/extensibility_blog_img.jpg)
