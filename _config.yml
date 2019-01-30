@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  work:
+    title: Work
+    output: true
 name: Jake Atkin
 email: jake@jakeatkin.co.uk
 tagline: Digital, UX, Service and Product Design

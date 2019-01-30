@@ -7,15 +7,10 @@ layout: page
 
 Presently, I'm improving customers' car financing experience with the fine folks of [Zuto][1]. Previously, I helped improve hundreds of client's brands and customer-facing design both online and in print for the smashing chaps at [Fat Media][2].
 
-## More info
-
-I'm a graduate of Manchester School of Art, with a BA(Hons) in Landscape Architecture. 
-
 ## Get in touch
 
 * [jake@jakeatkin.co.uk][3]
 * [@theatkinator][4]
-
 
 [1]: https://www.zuto.com
 [2]: https://www.fatmedia.co.uk
