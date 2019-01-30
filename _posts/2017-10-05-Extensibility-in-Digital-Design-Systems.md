@@ -5,8 +5,6 @@ excerpt_separator: "<!--more-->"
 layout: post
 ---
 
-![Extensibility Illustration](/assets/img/blog-img/extensibility_blog_img.jpg)
-
 Creating a brand guideline document is a gruelling affair. You know the drill – font sizes, colour, image placement, image treatments, and a long list of do's and don'ts for the logo. But you almost half know that the document in question will sit, lonely and neglected, on a shared drive somewhere, only to be dug out when a new one is required – and often, from someone else.
 
 The reasons are manifold, but in general, these brand guidelines often don’t consider how any of the brand’s collateral will work digitally, let alone on the company Twitter account or Facebook page. It requires a carefully considered plan regarding how all of these assets are going to work for the client **going forward**, rather than focusing on quick wins and undercooked frameworks.
