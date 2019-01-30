@@ -62,8 +62,6 @@ Of all the principles I list above, robustness is the one quality that should be
 
 It'll work wonders when pitching a system too - the confidence that robustness will give you will trickle down to others who use it, safe in the knowledge that most of the testing legwork has already been completed.
 
-***
-
 ## Existing Extensible Systems
 
 ![Google's Material Design](/assets/img/blog-img/extensibility_material.jpg)
