@@ -22,17 +22,13 @@ layout: default
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/blog/page{{paginator.next_page}}">&larr; Older</a>
+    <a class="pagination-item newer" href="{{ site.baseurl }}/blog/page{{paginator.next_page_path}}">Next &rarr;</a>
   {% else %}
-    <span class="pagination-item newer">Older</span>
+    <span class="pagination-item newer">Next</span>
   {% endif %}
   {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">&larr; Newer</a>
+      <a class="pagination-item older" href="{{paginator.previous_page_path}}">&larr; Previous</a>
     {% else %}
-      <a class="pagination-item older" href="{{ site.baseurl }}/blog/page{{paginator.previous_page}}">Older &rarr;</a>
+    <span class="pagination-item older">Previous</span>
     {% endif %}
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
 </div>
