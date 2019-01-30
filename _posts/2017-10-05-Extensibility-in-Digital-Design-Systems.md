@@ -1,16 +1,14 @@
 ---
 title: Extensibility in Digital Design Systems
 date: 2017-10-05 00:00:00 Z
-layout: post
 excerpt_separator: "<!--more-->"
+layout: post
 ---
 
 ![Extensibility Illustration](/assets/img/blog-img/extensibility_blog_img.jpg)
 
 Creating a brand guideline document is a gruelling affair. You know the drill – font sizes, colour, image placement, image treatments, and a long list of do's and don'ts for the logo. But you almost half know that the document in question will sit, lonely and neglected, on a shared drive somewhere, only to be dug out when a new one is required – and often, from someone else.
 
-<!--more-->
-***
 The reasons are manifold, but in general, these brand guidelines often don’t consider how any of the brand’s collateral will work digitally, let alone on the company Twitter account or Facebook page. It requires a carefully considered plan regarding how all of these assets are going to work for the client **going forward**, rather than focusing on quick wins and undercooked frameworks.
 
 ## Bring on the System
@@ -40,8 +38,6 @@ Let's have a more in-depth look at these extensibility principles...
 
 ### 1. Scalability
 
-![Extensibility Illustration: an exponential sequence of abstract cubes](/assets/img/blog-img/extensibility_scale.jpg)
-
 Scalability is the ability of a system to grow with the demand on that system. An example would be something like this:
 
 > **Designer A** creates a design system for a small consultancy which contains information and instructions on how the company branding, and all related collateral, on and offline, should be used and in what context. This consultancy suddenly acquires ten other companies, and needs the apply the design system across all of it's acquisitions. If the design system can successfully accommodate this increase in demand, it could be said to be successfully scalable.
@@ -50,23 +46,17 @@ The above example also includes elements of **modularity** and **robustness** to
 
 ### 2. Modularity
 
-![Modularity Illustration: a cluster of abstract cubes expressing outwards](/assets/img/blog-img/extensibility_modularity.jpg)
-
 Modularity is building a system in such a way that adding extra modules, or bits, onto it has been thought about properly and catered for. These modules can add functionality that aren't addressed by the core system. WordPress' plugin system is a good example, which allows the functionality of the system to be expanded on demand from a pool of plugins created by a vast, skilled creator base.
 
 With regards to a design system, this would be the ability to create sub-brands which fit seamlessly. These additions can be seen as complimenting the brand - such as the Coke Zero sub-brand, for instance.
 
 ### 3. Predictability
 
-![Predictability Illustration: an incremental sequence of blocks](/assets/img/blog-img/extensibility_predictability.jpg)
-
 Being able to predict the way that a system will grow (scale) is more planning than a practicable objective. If you have a design system you've created for a bank, you would probably predict that there may be some international requirements further down the line. Or that, if said bank only takes deposits at the moment, it may branch out into other offerings in the future such as loans, current accounts and the like.
 
 Planning for the more obvious outcomes makes short work of problems as they arise, and will give a firm basis to continue expanding the system to accommodate needs you could **easily** guess.
 
 ### 4. Robustness
-
-![Robustness Illustration: A number of blocks forming a cube](/assets/img/blog-img/extensibility_robustness.jpg)
 
 Robustness is the ability to withstand strenuous interrogation, or the ability of a system to maintain its' original structure or configuration whilst increasing the workload upon it.
 
@@ -94,8 +84,6 @@ Apple's HIG has been lauded (and mocked) over the years, but one thing is for su
 
 Starting with the GUI for Macintosh computers, after the release of the iPhone in 2007 Apple have consistently updated and revised their design language - but one thing you may notice is that the iOS structure pretty much remained the same. This is a fairly great testament to the longevity of their design system which has been translated since onto tablets, phones, watches, even bigger tablets, and gigantic 27-inch iMacs.
 
-***
-
 ## The Last Word
 
 Creating an extensible system for design is a pretty huge challenge, with only a handful of the world's most successful companies successfully implementing them and reaping the benefits that they bring.
@@ -103,5 +91,3 @@ Creating an extensible system for design is a pretty huge challenge, with only a
 Don't let that put you off, though. We all need a challenge from time to time, don't we?
 
 Even for tiny design endeavours, keeping extensibility in mind when designing **anything** is sure to make your project manager love you, your developers rejoice, and product leads tap-dance with unfettered joy.
-
-Happy designing! 👨‍🎨
