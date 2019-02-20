@@ -1,5 +1,5 @@
 ---
-title: The slow,yet timely death of wireframes
+title: The slow, yet timely death of wireframes
 date: 2019-02-20 17:23:00 Z
 ---
 
