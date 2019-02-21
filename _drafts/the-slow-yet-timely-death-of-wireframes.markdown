@@ -5,6 +5,10 @@ date: 2019-02-20 17:23:00 Z
 
 I've never really been a fan of wireframes. They take too long, present one point of view, and more often than not, come with a caveat that nothing further can change. 
 
+The problem is, a lot of places still use them, or even worse, require them. Let me explain why I really dislike wireframes, and what we should be doing instead.  
+
+Many moons ago, I started life as a fledgling User Experience designer. 
+
 Now, I've a background in agency work, where such an outcome would be desirable, if not outright required. But it never, ever worked well for either party. Having functionality locked down like that from the very start of the project 
 
 Wireframes, like most of the UX design stable, have undergone a state of flux. 
