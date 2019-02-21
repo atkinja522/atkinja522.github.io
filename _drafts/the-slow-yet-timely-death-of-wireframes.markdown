@@ -3,6 +3,8 @@ title: The slow, yet timely death of wireframes
 date: 2019-02-20 17:23:00 Z
 ---
 
+Of all the tools I've used repeatedly over the years, wireframes have somehow completely disappeared. Not on purpose, though, far from it. IT seems that they're
+
 I've never really been a fan of wireframes. They take too long, present one point of view, and more often than not, come with a caveat that nothing further can change. 
 
 The problem is, a lot of places still use them, or even worse, require them. Let me explain why I really dislike wireframes, and what we should be doing instead.  
