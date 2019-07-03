@@ -3,6 +3,4 @@ title: A Surfeit of Data
 date: 2019-06-21 13:24:00 Z
 ---
 
-Sometimes, all it takes is a little nudge in the right direction. This year has been pretty busy - as you might gague from the lack of updates. I've had a fair few things keeping me occupied. These are:
-
-- Getting married. Pretty 
+Bad King John supposedly died after eating a 'surfeit of peaches', where he contracted dysentry and died soon after. Of course, knowing that chroniclers liked to embellish the truth a bit, this seems highly unlikely. But still, at the time of this 
