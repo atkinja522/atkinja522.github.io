@@ -1,5 +1,5 @@
 ---
-title: '"A surfeit of peaches"'
+title: A Surfeit of Data
 date: 2019-06-21 13:24:00 Z
 ---
 
