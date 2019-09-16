@@ -19,7 +19,7 @@ description: 'Jake Atkin is a Lancaster-based multidisciplinary designer with a 
 
 '
 baseurl: 
-url: http://jakeatkin.co.uk
+url: https://jakeatkin.co.uk
 twitter_username: theatkinator
 excerpt_separator: "<!--more-->"
 markdown: kramdown
