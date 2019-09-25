@@ -11,4 +11,4 @@ I awoke on Monday morning with my employer simply ceasing to exist. An employer 
 
 Compulsory liquidation. Two words you really don't want to read at 2.30am on a Monday morning. There's no use lying: It rankled and stung very deeply that I'd been led to believe the company would been safe; and at the very least the profitable arms of the business might have been spared. 
 
-I wish all my colleagues all the best. 
+I wish all my colleagues the very best of luck. 
