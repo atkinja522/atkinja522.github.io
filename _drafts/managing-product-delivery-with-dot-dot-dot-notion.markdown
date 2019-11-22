@@ -9,8 +9,6 @@ Notion has had a lot of traction recently - not to mention their million-dollar 
 
 So, gush over. On to the meaty bits...
 
-# Creating some documents
+# How to make a Design Sprint framework in Notion
 
 One thing that really struck me was the way in which I could easily achieve what I wanted. Being tied in to JIRA in my working life, I wanted something a bit more fluid which would change as my needs changed, and before long I managed to create a similar, more nuanced workflow utilising some of the better featres of Notion.
-
-Planning what I wanted
