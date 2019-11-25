@@ -11,4 +11,7 @@ So, gush over. On to the meaty bits...
 
 # How to make a Design Sprint framework in Notion
 
-One thing that really struck me was the way in which I could easily achieve what I wanted. Being tied in to JIRA in my working life, I wanted something a bit more fluid which would change as my needs changed, and before long I managed to create a similar, more nuanced workflow utilising some of the better featres of Notion.
+One thing that really struck me was the way in which I could easily achieve what I wanted. Being tied in to JIRA in my working life, I wanted something a bit more fluid which would change as my needs changed, and before long I managed to create a similar, more nuanced workflow utilising some of the better featres of Notion. 
+
+To creat something worthwhile, I quickly developed a plan:
+ 
