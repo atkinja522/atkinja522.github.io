@@ -14,5 +14,4 @@ Previously, I improved customers' car financing experience with the fine folks o
 ## Get in touch
 
 * [jake@jakeatkin.co.uk](mailto:jake@jakeatkin.co.uk)
-
 * [@theatkinator](https://twitter.com/TheAtkinator)
