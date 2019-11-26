@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 
-![Jake](assets/img/jake-profile-bw.jpg)
+![Jake Atkin](assets/img/jake-profile-bw.jpg)
 
 <p class="lead">I'm a multidisciplinary designer with a love of creative arts, typography, and the world wide web, hailing from the lovely northern town of Lancaster. I now live and work in the substantially less town-like, but just as lovely (and northern) metropolis of Manchester.</p>
 
