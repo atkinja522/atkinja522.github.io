@@ -347,7 +347,7 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 }
 .post {
   padding-bottom: 2rem;
@@ -592,7 +592,7 @@ a.sidebar-nav-item:focus {
     margin-left: 16rem;
     margin-right: 4rem;
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
   }
 }
 
