@@ -13,5 +13,5 @@
     <a class="sidebar-nav-item{% if page.url == item.url %} active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">{{ item.title | escape }}</a></li>
     {% endfor %}
   </nav>
-  <p class="sidebar-nav">&copy; 2019.<br>
+  <p class="sidebar-nav">&copy; {{ 'now' | date: '%Y' }}<br>
 </div>

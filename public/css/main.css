@@ -14,9 +14,7 @@ body {
 
 html {
   line-height: 1.45;
-  font-family: arnhem, 'STIX Two Text', 'Charter', 'Georgia', 'Times New Roman', Times, serif;
-/*font-family: poynter-oldstyle-text, "Charter", serif;*/
-/*font-family: 'STIX Two Text', "Charter", "Georgia", serif;*/
+  font-family: /*'Prospectus Pro S',*/ 'arnhem', 'Charter', 'Georgia', serif;
   font-size: 18px;
 }
 
@@ -50,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
   color: #111;
   text-rendering: optimizeLegibility;
-  font-family: neue-haas-grotesk-text, Helvetica, Arial, sans-serif;
+  font-family: 'tofino personal', neue-haas-grotesk-text, Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -134,7 +132,6 @@ hr {
   margin: 0 0 1rem 0;
   border: 0;
   border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
 }
 
 abbr {
@@ -237,11 +234,11 @@ img {
 
 /* Caption text styling */
 img + em { 
-  font-family: neue-haas-grotesk-text, sans-serif;
-  font-weight: bold;
+  font-family: courier-std, monospace;
   font-size: .8rem;
   font-style: normal;
   display: block;
+  color: #9a9a9a;
 }
 
 
@@ -271,7 +268,7 @@ tbody tr:nth-child(odd) th {
 
 .lead {
   font-size: 1.15rem;
-  font-weight: 300;
+  font-weight: 500;
 }
 .intro {
   font-style: italic;
@@ -302,12 +299,17 @@ tbody tr:nth-child(odd) th {
 
 .container {
   max-width: 38rem;
+}
+.container,
+.container-full {
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
   margin-right: auto;
 }
-
+.container-full {
+  max-width: 100%;
+}
 
 /*
  * Masthead
@@ -350,6 +352,12 @@ tbody tr:nth-child(odd) th {
 .post {
   padding-bottom: 2rem;
   border-bottom: solid 1px #eee;
+}
+.archive {
+  padding-bottom: 1rem;;
+}
+h2.archive-title {
+  margin-bottom: 0.5rem;
 }
 /* Blog post or page title */
 .page-title,
@@ -458,13 +466,13 @@ a.pagination-item:hover {
 .sidebar {
   padding: 1rem;
   color: #fafafa;
-  background-color: #222;
+  background-color: #1A1D1F;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 5px solid rgb(31, 30, 30);
-  background-image: url(../../assets/img/contour.svg);
-  background-size: 800px;
+  border: 5px solid #1A1D1F;
+ /*background-image: url(../../assets/img/contour.svg);
+  background-size: 800px;*/
 }
 p.sidebar-nav {
   display: none;
@@ -490,7 +498,8 @@ h1 a {
 h1 a:hover {
   color: #c1bbaf;
 }
-.post h1 {
+.post h1,
+.archive h1 {
   margin-bottom: 0.5rem;
 }
 /* Sidebar links */
@@ -505,15 +514,18 @@ h1 a:hover {
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 1rem;
-  font-family: nimbus-sans-extended, neue-haas-grotesk-text, sans-serif;
+  font-family: 'tofino personal', neue-haas-grotesk-text, sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+h1.home-title {
+  margin-top: 0rem;
 }
 
 /* Sidebar nav */
 .sidebar-nav {
   /*margin-bottom: 1rem;*/
-  font-family: neue-haas-grotesk-text, sans-serif;
+  font-family: 'tofino personal', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: .9rem;
