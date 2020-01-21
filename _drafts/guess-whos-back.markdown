@@ -7,6 +7,8 @@ So, last I checked, I've left this website fallow for a little over a year -- so
 
 Well, I don't know where to start. 2019 was just *so unbelievably busy*! To gloss over the ups and downs and summarise: New job, bathroom ripped out, Holiday (well, stag party), my Wedding day 💍, honeymoon, lost said new job, got another job, holiday, Christmas. In that order.
 
+The biggest upset of this year - understandably, I hope - was losing my new, dream job. For those in the UK reading this, I need only mention  two words: Thomas Cook. That's right. I joined Thomas Cook Airlines as User Experience Designer in March of 
+
 Another thing to add into this mix: I've slowly become exceptionally dissatisfied with this site. It's *nice*, but not exactly representative of me, my style, or even what I like. Eagle eyed readers might notice a new little illustration I made of myself looking awkwardly to the right on my new homepage; the first such illustration effort in a very, very long time. This is the first step towards achieving those overdue #goals from last year - and at least there's been a little effort involved. 
 
 [1]: https://jakeatkin.co.uk/blog/2019/So-long-2019/
