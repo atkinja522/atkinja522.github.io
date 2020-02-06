@@ -1,6 +1,7 @@
 ---
 title: Guess who's back?
 date: 2020-01-21 21:01:00 Z
+layout: post
 ---
 
 So, last I checked, I've left this website fallow for a little over a year; so yes, maybe an update is in order. Not that I said [anything about updating my blog more often, oh no][1].  

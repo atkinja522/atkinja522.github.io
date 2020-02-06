@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
   color: #111;
   text-rendering: optimizeLegibility;
-  font-family: 'tofino-personal', neue-haas-grotesk-text, Helvetica, Arial, sans-serif;
+  font-family: neue-haas-grotesk-text, Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -351,7 +351,7 @@ p.hero-text {
   line-height: 1;
 }
 p.hero-home {
-  font-family: 'tofino-personal', sans-serif;
+  font-family: neue-haas-grotesk-text, sans-serif;
 }
 .page,
 .post {
@@ -526,7 +526,7 @@ h1 a:hover {
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 1rem;
-  font-family: 'tofino-personal', neue-haas-grotesk-text, sans-serif;
+  font-family: nimbus-sans-extended, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -537,7 +537,7 @@ h1.home-title {
 /* Sidebar nav */
 .sidebar-nav {
   /*margin-bottom: 1rem;*/
-  font-family: 'tofino-personal', sans-serif;
+  font-family: neue-haas-grotesk-text, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: .9rem;
