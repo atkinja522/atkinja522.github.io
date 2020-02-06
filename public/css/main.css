@@ -14,7 +14,7 @@ body {
 
 html {
   line-height: 1.45;
-  font-family: /*'Prospectus Pro S',*/ 'arnhem', 'Charter', 'Georgia', serif;
+  font-family: 'Prospectus Pro S', 'arnhem', 'Charter', 'Georgia', serif;
   font-size: 18px;
 }
 
@@ -344,7 +344,15 @@ tbody tr:nth-child(odd) th {
  * Each post is wrapped in `.post` and is used on default and post layouts. Each
  * page is wrapped in `.page` and is only used on the page layout.
  */
-
+p.hero-text {
+  font-family: 'Prospectus Pro M';
+  font-weight: normal;
+  font-size: 3rem;
+  line-height: 1;
+}
+p.hero-home {
+  font-family: 'tofino-personal', sans-serif;
+}
 .page,
 .post {
   margin-bottom: 2em;
@@ -357,7 +365,11 @@ tbody tr:nth-child(odd) th {
   padding-bottom: 1rem;;
 }
 h2.archive-title {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0rem;
+  font-weight: 500;
+}
+h2.archive-title a {
+  border: 0rem;
 }
 /* Blog post or page title */
 .page-title,
